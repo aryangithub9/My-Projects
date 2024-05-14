@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg, wheat,brown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border-radius: 50px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(45deg,red,blue,lightgreen);
+    box-shadow: none;
+
+}
+
+input{
+
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    height: 40px;
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: px;
+    font-size: larger;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+#a{
+    margin-top:-11px;
+    text-decoration: none;
+    margin-left: 130px;
+    font-size: large;
+    color: white;
+}
+
+#p{
+    margin-top: 30px;
+    font-size: large;
+}
+
+#a:hover{
+    text-decoration: underline;
+    color: wheat;
+}
+
+#s{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+#s:hover{
+    text-decoration: underline;
+    color: wheat;
+}
+
+#hr{
+    margin-top: 40px;
+    height: 0.3px;
+    background-color: black;
+}
+
+h1{
+    font-family: cursive
+}
+
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
