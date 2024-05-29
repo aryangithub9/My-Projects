@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(34deg,skyblue,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    height: auto;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 2em;
+    color: whitesmoke;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    backdrop-filter: blur(40px);
+    box-shadow: rgba(0, 0, 0, 0.9);
+
+
+}
+
+.searchbar{
+    margin-bottom: 10px;
+    width: 280px;
+    height: 44px;
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: wheat;
+    font-size: larger;
+}
+
+button{
+    height: 44px;
+    width: 70px;
+    border-radius: 40px;
+    outline: invert;
+    background: black;
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+.city{
+    color: wheat;
+    font-size: 22px;
+}
+.temp{
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.humidity{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.weather{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.city{
+    font-size: 37px;
+}
+
+.description{
+    margin-top: 15px;
+}
+
+.city{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.description{
+    text-transform: capitalize;
+}
+
+.humidity{
+    text-transform: capitalize;
+    
+}
+
+.icon{
+    height: 70px;
+    width: auto;
+}
+
+@media (max-width:450px) {
+    button,.searchbar{
+        width: 100%;
+        
+    }
+    
+}
+
+@media (max-width : 450px) {
+    .city{
+        font-size: 30px;
+    }
+}
+
+
